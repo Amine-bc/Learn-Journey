@@ -1,0 +1,1 @@
+int som(int tab1[],int size);

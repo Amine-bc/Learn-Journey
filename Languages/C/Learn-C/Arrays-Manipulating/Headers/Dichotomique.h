@@ -1,0 +1,1 @@
+void dichotomique(int *tab ,int searched_item ,int size);

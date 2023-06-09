@@ -1,0 +1,3 @@
+/home/m1ne/CLionProjects/Tables-Manipulating/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/m1ne/CLionProjects/Tables-Manipulating/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/m1ne/CLionProjects/Tables-Manipulating/cmake-build-debug/CMakeFiles/Tables_Manipulating.dir

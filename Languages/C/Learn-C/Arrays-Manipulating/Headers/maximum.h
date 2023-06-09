@@ -1,0 +1,1 @@
+void max(int tab1[],int size) ;

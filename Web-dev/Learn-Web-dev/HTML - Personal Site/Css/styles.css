@@ -1,0 +1,29 @@
+body {
+background-color:  #EBF0F6;  }
+hr{
+  color: #132238;
+  border-style: dashed;
+  border-color: #132238;
+  border-width: 5px;
+  width: 100px;
+}
+
+h1{
+  color: #132238 ;
+}
+h2 {
+  color: #132238 ;
+}
+div
+{
+  background-image: "pics/image.jpeg";
+  background-color: transparent;
+}
+#last
+{
+  color: #132238;
+  border-style: ridge;
+  border-color: #132238;
+  border-width: 3px;
+  width: 1000px;
+}

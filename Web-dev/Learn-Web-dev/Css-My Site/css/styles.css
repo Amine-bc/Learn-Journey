@@ -1,0 +1,28 @@
+.top-container
+{
+background-color: blue;
+border: solid 20px;
+padding: 10px;
+width: 200px;
+height: 200px;
+}
+
+.middle-container
+{
+background-color: red;
+border: solid 20px;
+padding: 10px;
+margin-left: 260px;
+width: 200px;
+height: 200px;
+}
+
+.bottom-container
+{
+background-color: yellow;
+border: solid 5px;
+padding: 10px;
+margin-left: 520px;
+width: 200px;
+height: 200px;
+}

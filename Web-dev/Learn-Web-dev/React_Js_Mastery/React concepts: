@@ -1,0 +1,15 @@
+React concepts:
+
+Virtual dom
+
+Components: their name has to be Upper case
+
+1. Functional
+2. class-based
+
+
+Props: is a sub object of component where we can store our parameters and use them in the react app
+
+Usestate: 
+
+A hook in react is like this: const anything = use.... 
