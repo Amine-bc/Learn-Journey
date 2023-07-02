@@ -73,8 +73,8 @@
               <h2>Name: {workout.name}</h2>
               <h3>Sets: {workout.sets}</h3>
               <h3>Load: {workout.load}</h3>
-                <h3>id: {workout._id}</h3>
-                <h3>created at: {workout.createdAt}</h3>
+              <h3>id: {workout._id}</h3>
+              <h3>created at: {workout.createdAt}</h3>
               <button className='button2'>Edit</button>
               <button className='button2' onClick={() => deleteWorkout(workout._id)}>Delete </button>
             </div>
