@@ -62,6 +62,9 @@
         );
         setWorkouts([...workouts, response.data]);
         console.log(response.data); // handle the successful response
+        // update the view
+        
+
         closeModal();
         } catch (error) {
         console.error(error); // handle the error response
@@ -70,7 +73,6 @@
 
     const openEditModal = (id) => {
         setIsEditModalOpen(true);
-        localStorage.setItem('id', id)
        
     };
     const closeEditModal = () => {
@@ -85,8 +87,8 @@
         );
         console.log("idddddddddddddddd"+id); // handle the successful response
         console.log(response.data); // handle the successful response
-        // update the view
-        
+        // update the view after edit ie: reprint the workouts
+        setWorkouts([...workouts, response.data]);
             
         closeEditModal();
         } catch (error) {
@@ -159,8 +161,11 @@
           </div>
         </div>
         ))}
-            <button  className='button2' onClick={
-             openEditModal(workout._id)}>Edit</button>
+            <button  className='button2' onClick={() => {
+             openEditModal();
+             localStorage.setItem('id', workout._id)
+            }
+             }>Edit</button>
             
             <button className='button2' onClick={() => deleteWorkout(workout._id)}>Delete </button>
             </div>
